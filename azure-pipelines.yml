@@ -7,12 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-latest' 
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-cool: 
-  didIdoIt: 'Watch me edit my yaml file'
  
 variables:
   buildConfiguration: 'Release'
