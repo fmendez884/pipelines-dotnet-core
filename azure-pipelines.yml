@@ -9,6 +9,9 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+cool: 
+  didIdoIt: 'Watch me edit my yaml file'
+ 
 variables:
   buildConfiguration: 'Release'
 
